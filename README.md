@@ -10,6 +10,11 @@ StrandAF = pmin(ForwardVariantCov, ReverseVariantCov) / pmax(ForwardVariantCov, 
 
 , which could be found in the [github repo](https://github.com/nickloman/zika-isnv) of one author—Nicholas J. Loman. Note that scripts from Nicholas J. Loman's repo were used here. [Guo et al.](https://link.springer.com/article/10.1186/1471-2164-13-666) provided three different measures of strand bias—SB, GATK-SB, Fisher Score. In my logistic regression, SVM, KNN models, these three strand bias measures were used. 
 
+The roc curves of all models were shown below. 
+
+### When SB or GATK-SB was used with frequency, a higher AUC was obtained compared to the model with frequency as the predicting variavle alone. This suggtests an improvement of variant calling accuracy. However, when Fisher Score was combined with frequency, it did not improve the accuracy compared to frequency alone. 
+
+
 Roc curves using frequency and SB from [Guo et al.](https://link.springer.com/article/10.1186/1471-2164-13-666). 
 ![](ROC_Frequency_SB.png)
 
