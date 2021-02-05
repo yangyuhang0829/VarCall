@@ -1,4 +1,4 @@
-# VarCall
+# Machine learning models to improve Nanopore variant calling accuracy
 
 In [Grubaugh et al.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-018-1618-7), Fig. 5 described the data analysis result of an experiment where 90% Zika virus #1 was mixed with 10% Zika virus #2. The differences between Zika virus #1 and #2 genomes were known and therefore served as prior information. By performing Nanopore sequencing on the mixture and further calling variants, the authors would be able to tell which variants matched with the prior information and which variants did not match. The matching variants were true positive variants, while those not matching were false positives. 
 
