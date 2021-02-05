@@ -10,4 +10,4 @@ StrandAF = pmin(ForwardVariantCov, ReverseVariantCov) / pmax(ForwardVariantCov, 
 
 , which could be found in the [github repo](https://github.com/nickloman/zika-isnv) of one author—Nicholas J. Loman. Note that scripts from Nicholas J. Loman's repo were used here. [Guo et al.](https://link.springer.com/article/10.1186/1471-2164-13-666) provided three different measures of strand bias—SB, GATK-SB, Fisher Score. In my logistic regression, SVM, KNN models, these three strand bias measures were used. 
 
-![ROC Frequency SB](./ROC\ Frequency\ SB.pdf)
+![](ROC\ Frequency\ SB.pdf)
