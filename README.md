@@ -8,4 +8,4 @@ In my repo, I reproduced the logistic regression model as [Grubaugh et al.](http
 
 StrandAF = pmin(ForwardVariantCov, ReverseVariantCov) / pmax(ForwardVariantCov, ReverseVariantCov)
 
-, which could be found in the [github repo](https://github.com/nickloman/zika-isnv) of one author—Nicholas J. Loman. [Guo2012](https://link.springer.com/article/10.1186/1471-2164-13-666) provided three different measures of strand bias—SB, GATK-SB, Fisher Score. In my logistic regression, KNN, SVM models, these three strand bias measures were used. 
+, which could be found in the [github repo](https://github.com/nickloman/zika-isnv) of one author—Nicholas J. Loman. Note that scripts from Nicholas J. Loman's repo were used here. [Guo2012](https://link.springer.com/article/10.1186/1471-2164-13-666) provided three different measures of strand bias—SB, GATK-SB, Fisher Score. In my logistic regression, KNN, SVM models, these three strand bias measures were used. 
