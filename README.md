@@ -17,9 +17,7 @@ The roc curves of all models were shown below.
 
 Roc curves using frequency and SB from [Guo et al.](https://link.springer.com/article/10.1186/1471-2164-13-666). 
 ![](ROC_Frequency_SB.png)
-
 Roc curves using frequency and GATK-SB from [Guo et al.](https://link.springer.com/article/10.1186/1471-2164-13-666). 
 ![](ROC_Frequency_GATK_SB.png)
-
 Roc curves using frequency and Fisher Score from [Guo et al.](https://link.springer.com/article/10.1186/1471-2164-13-666). 
 
